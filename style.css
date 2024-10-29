@@ -7,4 +7,17 @@
     --bg-color: #F5F5F5;
     --primary-color: #48CFCB
     --secondary-color: #229799
-    --font: nunito sans
+    --font: "Nunito Sans", serif;
+
+}
+
+  body { 
+    background-color: var(--bg-color) ;
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+
+
+header 
