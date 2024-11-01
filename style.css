@@ -20,4 +20,34 @@
 }
 
 
-header 
+header {
+     background-color: var(--primary-color);
+     text-align: center;
+     padding: 1px;
+
+}
+
+h1 {
+     font-size: 2rem;
+     color: var(--bg-color);
+     font-weight: 700;
+}
+
+nav{
+    display: flex
+    justify-context: center;
+    font-weight: 400;
+}
+
+nav a {
+     text-decoration: nome;
+     color: var(--bg-color);
+     margin: 0 2ren 1 ren 0ren;
+     font-size: 1.2ren;
+}
+
+nav a: :hover {
+    text decoration: underline;
+    transform: 5cale(0.90) ;
+    ]::vtransition
+}
